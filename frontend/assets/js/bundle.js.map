@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;;AAAA,OAAO,CAAC,GAAG,CAAC,oBAAoB,CAAC","sources":["webpack://pick_game/./src/main.ts"],"sourcesContent":["console.log('main.ts is working')"],"names":[],"sourceRoot":""}

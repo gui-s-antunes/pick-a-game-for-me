@@ -1,0 +1,32 @@
+:root {
+  --dark-color: #111;
+  --light-color: #f3f3f3;
+  --medium-color: #bbb;
+  --border-color: #ddd;
+  --main-color: #0074d9;
+  --error-color: #ff4136;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--drab-dark-brown-color);
+  font-family: sans-serif;
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  height: 100vh;
+}

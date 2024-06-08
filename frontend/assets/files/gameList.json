@@ -1,0 +1,85 @@
+[
+    {
+        "platform": "Nintendo Switch",
+        "links": [
+            {
+                "key": "0-A",
+                "link": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games_(0-A)"
+            },
+            {
+                "key": "B",
+                "link": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games_(B)"
+            },
+            {
+                "key": "C-G",
+                "link": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games_(C-G)"
+            },
+            {
+                "key": "H-P",
+                "link": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games_(H-P)"
+            },
+            {
+                "key": "Q-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_games_(Q-Z)"
+            }
+        ]
+    },
+    {
+        "platform": "Playstation 5",
+        "links": [
+            {
+                "key": "0-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_PlayStation_5_games"
+            }
+        ]
+    },
+    {
+        "platform": "Xbox Series",
+        "links": [
+            {
+                "key": "0-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_Xbox_Series_X_and_Series_S_games"
+            }
+        ]
+    },
+    {
+        "platform": "Playstation 2",
+        "links": [
+            {
+                "key": "0-K",
+                "link": "https://en.wikipedia.org/wiki/List_of_PlayStation_2_games_(A-K)"
+            },
+            {
+                "key": "L-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_PlayStation_2_games_(L-Z)"
+            }
+        ]
+    },
+    {
+        "platform": "Super Nintendo",
+        "links": [
+            {
+                "key": "0-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_Super_Nintendo_Entertainment_System_games"
+            }
+        ]
+    },
+    {
+        "platform": "Sega Genesis",
+        "links": [
+            {
+                "key": "0-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_Sega_Genesis_games"
+            }
+        ]
+    },
+    {
+        "platform": "Game Boy Advance",
+        "links": [
+            {
+                "key": "0-Z",
+                "link": "https://en.wikipedia.org/wiki/List_of_Game_Boy_Advance_games"
+            }
+        ]
+    }
+]
