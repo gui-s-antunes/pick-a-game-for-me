@@ -21,7 +21,7 @@ export const getGame = async (csvFilePath: string) => {
 
   const game = {
     Title: gamesParsed[randNum]['Title'],
-    'Developer(s)': gamesParsed[randNum]['Developer(s)'],
+    'Developer(s)': gamesParsed[randNum]['Developer(s)'] || '???',
   };
 
   return game;

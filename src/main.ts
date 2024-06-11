@@ -9,7 +9,6 @@ const $selectedGame = document.querySelector(
 $selector.addEventListener(
   'change',
   async () => {
-    console.log('change!');
     const path = `./assets/files/${$selector.value}.csv`;
     const game = await getGame(path);
 
@@ -28,6 +27,6 @@ function showGame(game: Game) {
     '#game_developer',
   ) as HTMLParagraphElement;
 
-  $gameName.textContent = `Title: ${game.Title}`;
-  $gameDeveloper.textContent = `Developer: ${game['Developer(s)']}`;
+  $gameName.innerHTML = `<span>Title</span>: ${game.Title}`;
+  $gameDeveloper.innerHTML = `<span>Developer(s)</span>: ${game['Developer(s)']}`;
 }

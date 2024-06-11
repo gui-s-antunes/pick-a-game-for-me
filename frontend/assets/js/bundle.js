@@ -53,7 +53,7 @@ const getGame = async (csvFilePath) => {
     const randNum = (0,_getRandomNumber__WEBPACK_IMPORTED_MODULE_1__.getRandomNumber)(0, gamesParsed.length);
     const game = {
         Title: gamesParsed[randNum]['Title'],
-        'Developer(s)': gamesParsed[randNum]['Developer(s)'],
+        'Developer(s)': gamesParsed[randNum]['Developer(s)'] || '???',
     };
     return game;
 };
@@ -160,7 +160,6 @@ __webpack_require__.r(__webpack_exports__);
 const $selector = document.querySelector('#platforms');
 const $selectedGame = document.querySelector('#selected_game');
 $selector.addEventListener('change', async () => {
-    console.log('change!');
     const path = `./assets/files/${$selector.value}.csv`;
     const game = await (0,_getGame__WEBPACK_IMPORTED_MODULE_0__.getGame)(path);
     if (!game)
@@ -170,8 +169,8 @@ $selector.addEventListener('change', async () => {
 function showGame(game) {
     const $gameName = $selectedGame.querySelector('#game_name');
     const $gameDeveloper = $selectedGame.querySelector('#game_developer');
-    $gameName.textContent = `Title: ${game.Title}`;
-    $gameDeveloper.textContent = `Developer: ${game['Developer(s)']}`;
+    $gameName.innerHTML = `<span>Title</span>: ${game.Title}`;
+    $gameDeveloper.innerHTML = `<span>Developer(s)</span>: ${game['Developer(s)']}`;
 }
 
 })();
